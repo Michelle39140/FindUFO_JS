@@ -73,17 +73,64 @@ select {
   outline: none;
 }
 
-#table-area th{
-  text-align: center;
+@media (max-width: 800px) and (min-width: 500px){
+/* 
+tbody {
+  display:block;
+  height:200px;
+  overflow:auto;
+}
+thead, tbody tr {
+  display:table;
+  width:100%;
+  table-layout:fixed;
+} */
+table{
+  width: 100%;
+  table-layout: fixed;
 }
 
+tbody{
+  display:block;
+  width: 100%;
+  overflow: auto;
+  height: 500px;
+}
 
+thead tr {
+   display: block;
+}
+td {
+  padding: 5px;
+  text-align: auto;
+}
+th {
+  text-align: left;
+}
 
 #table-area th:first-child,
-#table-area th:nth-child(2),
-#table-area th:nth-child(6) {
-  min-width: 70px;
+#table-area td:first-child,
+#table-area th:nth-child(4),
+#table-area td:nth-child(4),
+#table-area th:nth-child(5),
+#table-area td:nth-child(5)
+{
+  width: 55px;
 }
+#table-area th:nth-child(2),
+#table-area td:nth-child(2),
+#table-area th:nth-child(3),
+#table-area td:nth-child(3),
+#table-area th:nth-child(6),
+#table-area td:nth-child(6),
+#table-area th:nth-child(7),
+#table-area td:nth-child(7)
+{
+  width: 70px;
+}
+}
+
+
 
 .loader {
   margin-top: 50px;
@@ -157,7 +204,7 @@ select {
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   #table-area thead {
     display: none;
   }
