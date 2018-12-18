@@ -7,9 +7,9 @@
 
 **Dataset**: [UFO Sightings Data](static/js/data.js)
 
-## The Wwebpage is live here: https://michelle39140.github.io/FindUFO_JS/
+### The webpage is live here: https://michelle39140.github.io/FindUFO_JS/
 
-User can to set multiple filters and search for UFO sightings using the following criteria based on the table columns:
+* User can to set multiple filters and search for UFO sightings using the following criteria based on the table columns:
   1. `date`
   2. `city`
   3. `state`
