@@ -3,7 +3,8 @@
 **Target**: Create a webpage to allow users search through and filter the UFO-eye-witness data collected by `ALIENS-R-REAL` 
 
 **Language**: JavaScript, HTML, CSS
-**Packages**: 3.js
+
+**Packages**: d3.js; **Framework**: bootstrap
 
 **Dataset**: [UFO Sightings Data](static/js/data.js)
 
