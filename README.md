@@ -1,22 +1,20 @@
 # FindUFO
 
-`ALIENS-R-REAL` have collected all of the eye-witness reports of UFOs
-[dataset we provide](StarterCode/static/js/data.js). 
-allow users to filter the table data for specific values. 
-JavaScript, HTML, and CSS, and D3.js o
+**Target**: Create a webpage to allow users search through and filter the UFO-eye-witness data collected by `ALIENS-R-REAL` 
 
-### Dataset
+**Language**: JavaScript, HTML, CSS
+**Packages**: 3.js
 
-* [UFO Sightings Data](StarterCode/static/js/data.js)
+**Dataset**: [UFO Sightings Data](static/js/data.js)
 
-user can to set multiple filters and search for UFO sightings using the following criteria based on the table columns:
+## The Wwebpage is live here: https://michelle39140.github.io/FindUFO_JS/
 
-  1. `date/time`
+User can to set multiple filters and search for UFO sightings using the following criteria based on the table columns:
+  1. `date`
   2. `city`
   3. `state`
   4. `country`
   5. `shape`
-
 
 
 #
